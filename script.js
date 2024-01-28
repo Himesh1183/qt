@@ -1,0 +1,41 @@
+const texts = [
+    "Sometimes weak and wan, sometimes strong and full of light. The moon understands what it means to be human",
+    "So, this is my life. And I want you to know that I am both happy and sad and I'm still trying to figure out how that could be",
+    "You are braver than you believe, stronger than you seem, and smarter than you think. But the most important thing is, even if we're apart…I'll always be with you.",
+    "Memory is a mean thing, slicing at you from the harshest angles, dipping your consciousness into the wrong colors again and again. A moment of humiliation, or devastation, or absolute rage, to be rewound and replayed, spinning a thread that wraps around the brain, knotting itself into something of a noose. It won't exactly kill you, but it makes you feel the squeeze of every horrible moment",
+    "The purpose of memory is to remind us how to live.",
+    "Believing is a type of magic. It can make something true.",
+    "It's okay to be afraid. But not okay if be afraid means you do nothing. You must not do nothing. That's not life worth living.",
+    "It was a dream, i knew it wasn't but still. We kissed, and I was every color in the world, alight.",
+    "You love who you love. There's no changing that.",
+    "Maybe that's where all the other colours are hiding - in a dimenson of the world we just can't see, between our sky and the rest of the universe.",
+    "Wherever you are, at any moment, try and find something beautiful. A face, a line out of a poem, the clouds out of a window, some graffiti, a wind farm. Beauty cleans the mind.",
+    "Maybe love is just about finding the person you can be your weird self with.",
+    "To other people, it sometimes seems like nothing at all. You are walking around with your head on fire and no one can see the flames.",
+    "Depression is also smaller than you. Always, it is smaller than you, even when it feels vast. It operates within you, you do not operate within it. ",
+    "If you are the type of person who thinks too much about stuff then there is nothing lonelier in the world than being surrounded by a load of people on a different wavelength.",
+    "Life is waiting for you. You might be stuck here for a while, but the world isn't going anywhere. Hang on in there if you can. Life is always worth it.",
+    "You can be a depressive and be happy, just as you can be a sober alcoholic",
+    "Just when you feel you have no time to relax, know that this is the moment you most need to make time to relax",
+    "Maybe that is what it takes to love someone. Finding a happy mystery you would like to unravel for ever.",
+    "The key to happiness wasn't being yourself, because what did that even mean? Everyone had many selves. No. The key to happiness is finding the lie that suits you best.",
+    "Faith ― acceptance of which we imagine to be true, that which we cannot prove.",
+    "You can't get away from yourself. You can't decide not to see yourself anymore. You can't decide to turn off the noise in your head. All you can do is, to fight back harder.",
+    "You’re like a gray sky. You’re beautiful, even though you don’t want to be",
+    "We all have darkness inside of us and some of us are better at dealing with it than others.",
+    "Once the storm is over you won’t remember how you made it through, how you managed to survive. You won’t even be sure, in fact, whether the storm is really over. But one thing is certain. When you come out of the storm you won’t be the same person who walked in. That’s what this storm’s all about",
+    "There's a thing with time. It's not all the same. Some days - some years - some decades - are empty. There is nothing to them. It's just flat water. And then you come across a year, or even a day, or an afternoon. And it is everything. It is the whole thing.",
+    "I will be stronger than my sadness.",
+    "You don’t have to understand life. You just have to live it",
+    "Maybe it's better to have gotten it right and been happy for one day instead of living a lifetime of wrongs.",
+    "Sometimes the truth is a secret you're keeping from yourself because living a lie is easier",
+    "There has to be more to life than just imagining a future for yourself. I can't just wish for the future; I have to take risks to create it.",
+    "I may not be able to cure cancer or end world hunger, but small kindnesses go a long way.",
+    "We always think there's enough time to do things with other people. Time to say things to them. And then something happens and then we stand there holding on to words like 'if'.",
+    "You only need one ray of light to chase all the shadows away",
+];
+
+function generateRandomText() {
+    const randomIndex = Math.floor(Math.random() * texts.length);
+    document.getElementById("randomText").textContent = texts[randomIndex];
+}

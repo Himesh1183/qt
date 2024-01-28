@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Outfit:wght@700&family=Petit+Formal+Script&family=Reem+Kufi&display=swap');
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: url("park.jpg");
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#randomText {
+    font-size: 20px;
+    margin: 30px 30px 30px 20px;
+    line-height: 35px;
+    font-family: 'Petit Formal Script', cursive;
+    color: azure;
+}
+#generateButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 27.5px;
+    height: 55px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family:'Outfit', sans-serif ;
+    background-color:  rgb(79, 105, 152);
+    color: azure;
+}
+#generateButton:hover{
+    background-color:  rgb(55, 74, 109);
+}
+
+@media (max-width: 600px) {
+    h1{
+        font-size: 22px;
+    }
+    #generateButton {
+        font-size: 12px;
+        border-radius: 13px;
+        height: 28px;
+        width: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #randomText {
+    font-size: 12px;
+    line-height: 22px;
+    margin: 18px;
+    padding: 8px;
+    font-family: 'Petit Formal Script', cursive;
+}
+}
+
+
